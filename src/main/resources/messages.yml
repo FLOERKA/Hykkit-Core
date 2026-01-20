@@ -1,0 +1,41 @@
+
+protocol:
+  error:
+    unexpected_packet: "Protocol error: unexpected packet %d"
+    incompatible_protocol: |-
+      Incompatible protocol!
+      Server: %s
+      Client: %s
+    invalid_protocol_hash: "Invalid Protocol Hash! %d"
+
+disconnect:
+  server_shutting_down: "Server is shutting down!"
+  server_booting_up: "Server is booting up! Please try again in a moment. [%s]"
+  missing_uuid: "Missing UUID"
+  missing_username: "Missing username"
+  referral_data_too_large: "Referral data exceeds maximum size of 4096 bytes"
+  tcp_auth_required: "TCP connections only support insecure authentication. Use QUIC for authenticated connections."
+  editor_not_supported: "Editor isn't supported on this server!"
+  authentication_required: "This server requires authentication! Online mode enabled"
+
+logging:
+  silent_disconnect: "Silently disconnecting %s because no Connect packet!"
+  tcp_connection: "TCP connection from %s - only insecure auth supported"
+  referral_data_rejected: "Rejecting connection from %s - referral data too large: %d bytes (max: %d)"
+  authenticated_flow_start: "Starting authenticated flow for %s (%s) from %s"
+  development_flow_start: "Starting development flow for %s (%s) from %s"
+  rejecting_development: "Rejecting development connection from %s - server requires authentication (auth-mode=%s)"
+  disconnect_received: "Disconnecting %s - Sent disconnect packet???"
+
+connection_timings:
+  registered: "Registered"
+  connect: "Connect"
+
+constants:
+  max_referral_data_size: 4096
+  max_protocol_hash_length: 64
+  password_challenge_length: 32
+  default_language: "en"
+
+network:
+  address_format: "%s:%d"
