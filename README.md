@@ -24,7 +24,7 @@
 ## API
 
 Ядро предоставляет удобный API для разработки модов на сервер
-# Hykkit
+### Hykkit
 Класс Hykkit предоставляет собой набор статик методов для работы с основными функциями сервера:
 
 Пример набора методов:
@@ -42,7 +42,7 @@ registerListener(plugin, new PlayerListener());
 
 ```
 
-# HykkitPlayer
+### HykkitPlayer
 Класс HykkitPlayer предоставляет собой набор методов для работы с игроками:
 
 Пример набора методов:
@@ -61,7 +61,7 @@ List<PlayerRef> getNearbyPlayers(int radius);
 
 ```
 
-#HykkitContext
+### HykkitContext
 Класс предоставляет собой утилиту для удобства работы с CommandBuffer и HykkitPlayer
 Для изменения параметров игрока внутри работающего потока нужно использовать CommandBuffer
 ```java
