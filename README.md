@@ -6,6 +6,14 @@
 
 ---
 
+## Donate
+
+<p align="center">
+  <a href="https://yoomoney.ru/to/4100116260531323">
+    <img src="https://i.imgur.com/G70vkGO.png" width="400" alt="Оплатить мне кофе сегодня" />
+  </a>
+</p>
+
 ## Last Updates
 
 - Включено изменение Online-Mode в config.json
