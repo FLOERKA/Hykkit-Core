@@ -16,8 +16,9 @@
 
 ## Last Updates
 
-- Включено изменение Online-Mode в config.json
-- Включено изменение Player-Collisions в config.json
+- Все изменения сервера перенесены в hykkit.yml [(ДОКУМЕНТАЦИЯ)](https://github.com/FLOERKA/Hykkit-Core/blob/code/hykkit-config-info.md)
+- Включено изменение Online-Mode в hykkit.yml
+- Включено изменение Player-Collisions в hykkit.yml
 - Включена возможность изменить сообщения в messages.yml
 - Исправлена ошибка всех остальных offline-форков
 - Добавлен API для удобства разработки модов
