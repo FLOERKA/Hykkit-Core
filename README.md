@@ -9,7 +9,7 @@
 ## Donate
 
 <p align="center">
-  <a href="https://yoomoney.ru/to/4100116260531323">
+  <a href="https://www.donationalerts.com/r/floerka">
     <img src="https://i.imgur.com/G70vkGO.png" width="400" alt="Оплатить мне кофе сегодня" />
   </a>
 </p>
